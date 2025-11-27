@@ -1,0 +1,36 @@
+Tabelas e campos
+
+textual
+
+Aluno(#cdaluno > Chave primaria,
+nome,dt_nasc,endereco,email,fone,#cpf,foto,piscina?,solteiro?,sexo,)
+
+
+Animal(nome,nr_chip,porte,cor,peso,dt_nasc,dt_obito,vacinado?,sexo,)
+
+
+
+>=5 campos
+
+Paciente(nome,dt_nasc,endereco,email,fone,cpf,altura,peso,rg,nr_sus,comorbidade,dt_entrada,dt_saida,dt_obito,filiacao,)
+
+
+Filme(,nome,duracao,faixetaria,dt_lancamento,idioma_original,legendado?,custo,faturamento,avaliacao,)
+
+
+Pizza(tamanho,valor,nr_fatias,borda_recheada?,tempo_de_preparo,custo_de_producao,tempo_de_preparo,fermentacao_natural?,
+
+EX:
+Cidade N - 1 UF
+UF N - 1 Pais
+
+MaridoOriental - MulherOriental
+Pizza 1 - N ingredientes
+Médico. - Paciente
+Empregado - Cargo
+Animal - Raça
+Aluno - Diciplina
+NotaFiscal - Cliente
+Filme - Genero
+Produto - TipoProduto
+Médico - Especialidade
