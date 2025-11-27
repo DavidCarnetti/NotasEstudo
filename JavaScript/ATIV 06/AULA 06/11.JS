@@ -42,6 +42,7 @@ let celsius = 35
 const fahrenheit = (celsius * 9/5) + 32
 console.log ("Conversão de Celsius para Fahrenheit")
 console.log (celsius + "°C é igual a " + fahrenheit + "°F")
+//
 
 
  
